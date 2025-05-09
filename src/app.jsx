@@ -6,7 +6,7 @@ import Testimonials from "./components/Testimonials";
 import ContactForm from "./components/ContactForm";
 import Navbar from "./components/Navbar";
 
-function app() {
+function App() {
   const [dark, setDark] = useState(false);
   return (
     <div className={dark ? "dark" : ""}>
@@ -27,4 +27,4 @@ function app() {
   );
 }
 
-export default app;
+export default App;
