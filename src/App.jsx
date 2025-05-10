@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Hero from "./components/hero";
-import HowItWorks from "./components/howItWorks";
+import HowItWorks from "./components/howitworks";
 import WhyChooseUs from "./components/whychooseus";
 import Testimonials from "./components/testimonials";
 import ContactForm from "./components/contactform";
