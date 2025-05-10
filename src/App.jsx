@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Hero from "./components/Hero";
-import HowItWorks from "./components/HowItWorks";
-import WhyChooseUs from "./components/Whychooseus";
-import Testimonials from "./components/Testimonials";
-import ContactForm from "./components/Contactform";
-import Navbar from "./components/Navbar";
+import Hero from "./components/hero";
+import HowItWorks from "./components/howItWorks";
+import WhyChooseUs from "./components/whychooseus";
+import Testimonials from "./components/testimonials";
+import ContactForm from "./components/contactform";
+import Navbar from "./components/navbar";
 
 function App() {
   const [dark, setDark] = useState(false);
